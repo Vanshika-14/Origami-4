@@ -1,0 +1,74 @@
+   body {
+      background-image: url("images/proBG.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
+
+   .header {
+      background-color: rgb(148, 216, 255);
+      text-align: center;
+      padding: 2px;
+   }
+
+   .content {
+      background-color: rgb(255, 155, 230);
+      text-align: center;
+   }
+
+   h3 {
+      font-size: 25px;
+      color: blue;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+
+   p {
+      background-color: rgb(255, 137, 186);
+      border: 3px solid rgb(142, 227, 255);
+      border-radius: 20px;
+      font-size: 30px;
+      color: white;
+   }
+
+   img {
+      border: 10px solid black;
+      border-radius: 40px;
+   }
+
+   .grid {
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:space-evenly;
+      border:2px solid #7772ff
+   }
+
+   a:link {
+      color:black;
+   }
+
+   a:visited {
+      color: darkviolet;
+   }
+
+   a:hover {
+      color:cadetblue;
+   }
+
+   .origami:hover{
+      transform:scale(1.2);
+   }
+
+   .item p{
+      position:absolute;
+      top:50%;
+      left:50%;
+      transform:translate(-50%, -50%);
+      opacity:0;
+   }
+
+   .item:hover p {
+      opacity:1;
+   }
+
+   .item:hover img {
+      opacity:0.20;
+   }

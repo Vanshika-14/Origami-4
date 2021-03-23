@@ -1,0 +1,102 @@
+   body {
+      background-image: url("images/proBG.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
+
+   .header {
+      background-color: rgb(148, 216, 255);
+      padding: 3px;
+      display:flex;
+      justify-content:space-between;
+   }
+
+   h3 {
+      font-size: 25px;
+      color: black;
+      background-color:rgb(255, 0, 128);
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+
+   h1 {
+      font-size: 35px;
+      color: black;
+      background-color:rgb(0, 183, 255);
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin-left:800px;
+   }
+
+   .origami {
+      border-radius:20px;
+      width:310px;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+   }
+
+   .grid {
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:space-evenly;
+      border:2px solid #7772ff
+   }
+
+   .grid img {
+      border: 2px solid black;
+      border-radius:50px;
+      background-color:black;
+   }
+
+   p {
+      background-color: rgb(255, 137, 186);
+      border: 3px solid rgb(142, 227, 255);
+      font-size: 30px;
+      color: white;
+   }
+
+   img {
+      border: 10px solid black;
+      border-radius: 40px;
+   }
+
+   .menu {
+      margin-right:30px;
+      margin-top:30px;
+   }
+
+   .menu a {
+      margin-left:20px;
+      border: 2px black solid;
+      padding: 10px;
+      border-radius: 10px;
+   }
+
+   a:link {
+      color:black;
+   }
+
+   a:visited {
+      color: darkviolet;
+   }
+
+   a:hover {
+      color:cadetblue;
+   }
+
+   .origami:hover{
+      transform:scale(1.2);
+   }
+
+   .item p{
+      position:absolute;
+      top:50%;
+      left:50%;
+      transform:translate(-50%, -50%);
+      opacity:0;
+   }
+
+   .item:hover p {
+      opacity:1;
+   }
+
+   .item:hover img {
+      opacity:0.20;
+   }
